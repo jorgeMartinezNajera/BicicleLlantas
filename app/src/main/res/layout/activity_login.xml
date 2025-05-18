@@ -20,16 +20,20 @@
             android:layout_height="match_parent"
             android:layout_margin="8dp"
             android:orientation="vertical">
-            <!-- Imagen-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <!--correo-->
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="138dp"
                 android:layout_marginTop="200px"
-                app:srcCompat="@drawable/tv_signin_fill0_wght400_grad0_opsz24" />
+                app:srcCompat="@drawable/ic_user_login" />
 
-            <!--correo-->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/txtCorreoTil"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -44,10 +48,10 @@
                     android:layout_height="60dp"
                     android:hint="@string/correo_electr_nico"
                     android:inputType="textEmailAddress"
-                    android:textSize="20sp"
                     android:paddingHorizontal="12dp"
                     android:paddingVertical="12dp"
-                    android:textColor="@color/white"></com.google.android.material.textfield.TextInputEditText>
+                    android:textColor="@color/white"
+                    android:textSize="20sp"></com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
 
             <!--contraseña-->
@@ -68,11 +72,11 @@
                     android:layout_height="60dp"
                     android:hint="@string/contrase_a"
                     android:inputType="textPassword"
-                    android:textSize="20sp"
                     android:maxLength="20"
                     android:paddingHorizontal="12dp"
                     android:paddingVertical="12dp"
-                    android:textColor="@color/white"></com.google.android.material.textfield.TextInputEditText>
+                    android:textColor="@color/white"
+                    android:textSize="20sp"></com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
 
             <!--btnEntrar-->
@@ -92,10 +96,10 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnRegister"
                 style="@style/Widget.MaterialComponents.Button"
-                android:backgroundTint="@color/_600"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
+                android:backgroundTint="@color/_600"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="Crear mi cuenta">
