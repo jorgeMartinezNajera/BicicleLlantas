@@ -91,7 +91,7 @@
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-condensed-medium"
                         android:gravity="center"
-                        android:text="@string/pincel1"
+                        android:text="LLANTAS MAXXIS"
                         android:textColor="@color/black" />
                 </LinearLayout>
 
