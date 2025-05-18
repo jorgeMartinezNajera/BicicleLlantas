@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_900"
+    tools:context=".PantallaRedesS">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="182dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="47dp"
+        android:text="Redes Sociales"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="74dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="74dp"
+        android:background="@drawable/whatsapp_icon"
+        app:layout_constraintEnd_toStartOf="@+id/btnWha"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/btnWha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/A700"
+        android:onClick="eventoBoton"
+        android:text="Detalles"
+        app:layout_constraintBottom_toBottomOf="@id/imageView"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        app:layout_constraintRight_toRightOf="@id/imageView"
+        app:layout_constraintTop_toTopOf="@id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="72dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="280dp"
+        android:background="@drawable/facebook_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="72dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="74dp"
+        android:background="@drawable/instagram_icon"
+        app:layout_constraintEnd_toStartOf="@+id/btnIg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="298dp"
+        android:layout_height="233dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/estuches1"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983" />
+
+    <Button
+        android:id="@+id/btnFb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:backgroundTint="@color/A700"
+        android:text="Detalles"
+        app:layout_constraintBottom_toBottomOf="@id/imageView2"
+        app:layout_constraintLeft_toRightOf="@id/imageView2"
+        app:layout_constraintRight_toRightOf="@id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@id/imageView2"
+        app:layout_constraintVertical_bias="0.35"
+        app:strokeColor="@color/A700" />
+
+    <Button
+        android:id="@+id/btnIg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:backgroundTint="@color/A700"
+        android:text="Detalles"
+        app:layout_constraintBottom_toBottomOf="@id/imageView3"
+        app:layout_constraintLeft_toRightOf="@id/imageView3"
+        app:layout_constraintRight_toRightOf="@id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@id/imageView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
