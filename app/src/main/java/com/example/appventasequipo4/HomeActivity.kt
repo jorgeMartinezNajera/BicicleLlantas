@@ -26,7 +26,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
 
     fun clicBoton(view: View){
         when(view.id){
-            R.id.p1-> Toast.makeText(this, "Cuenta con varios compartimentos para los pinceles y soporte", Toast.LENGTH_LONG).show()
+            R.id.p1-> Toast.makeText(this, "MAXXIS", Toast.LENGTH_LONG).show()
             R.id.imageButton5-> Toast.makeText(this,"Set de 10 pinceles de fibra Taklon más estuche", Toast.LENGTH_LONG).show()
             R.id.imageButton6-> Toast.makeText(this, "Estuche con soporte con juego de pinceles más pala y esponja ", Toast.LENGTH_LONG).show()
             R.id.imageButton3-> Toast.makeText(this, "Estuche c/10 pinceles y cierre para guardarlos", Toast.LENGTH_LONG).show()
