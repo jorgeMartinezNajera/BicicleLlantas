@@ -7,16 +7,16 @@
     <string name="app_login">Iniciar sesión</string>
 
     <string name="titulo">PRODUCTOS DISPONIBLES</string>
-    <string name="pincel1">Estuche para pinceles  $983</string>
-    <string name="pincel2">Estuche Con Pinceles Artecho 15 Piezas Perfectas Para Pintar En Diferentes Técnicas . $1234</string>
-    <string name="pincel3">Set de 10 Pinceles de Fibra de Taklon + Estuche (Para Acrílicos) Mont Marte Signature BMHS0030 $1450</string>
-    <string name="pincel4">GOTIDEAL Juego de pinceles de pintura para artistas, 15 pinceles surti | Arteztik $1286</string>
-    <string name="pincel5">Estuche C/10 Pinceles Para Acuarela, Acrílico, Óleo, Pintura $1678</string>
-    <string name="pincel6">Estuche de pinceles de cerda $999</string>
-    <string name="pincel7">Estuche de lápices 38 PCS Pinceles de pintura Conjunto con caja de lona Caja de madera Long Manera de madera Suministros de arte de cabello sintético para aceite acrílico acuarela $1789</string>
-    <string name="pincel8">Juego de 5 pinceles de viaje pequeños con estuche convertible, pinceles de acuarela plegables $1265</string>
-    <string name="pincel9">Estuche de pinceles de cerda $879</string>
-    <string name="pincel10">Juego De 18 Pinceles De Dibujo Para Acuarela Aceite Acrílico Estuche Bolsa Gris Con Negro $1176</string>
+    <string name="llanta1">Aeolus RSL TLR Road $1,999.00 MXN</string>
+    <string name="llanta2">Vallnord RSL XR TLR $1,499.00 MXN</string>
+    <string name="llanta3">Galbraith RSL SE TLR $1,499.00 MXN</string>
+    <string name="llanta4">Brevard RSL SE TLR $1,499.00 MXN</string>
+    <string name="llanta5">Montrose RSL XT TLR $1,499.00 MXN</string>
+    <string name="llanta6">Sainte-Anne RSL XR TLR $1,499.00 MXN</string>
+    <string name="llanta7">Gunnison RSL XT TLR $1,499.00 MXN</string>
+    <string name="llanta8">Betasso RSL GX TLR $1,299.00 MXN</string>
+    <string name="llanta9">Brevard RSL XT TLR $1,299.00 MXN</string>
+    <string name="llanta10">Brevard Pro XR TLR $1,199.00 MXN</string>
 
 
     <string name="contrase_a">Contraseña</string>
