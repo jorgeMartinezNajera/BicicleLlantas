@@ -28,7 +28,7 @@
                 android:layout_height="138dp"
                 android:layout_marginTop="100dp"
                 android:contentDescription="Representative image"
-                app:srcCompat="@drawable/face_6_fill0_wght400_grad0_opsz24" />
+                app:srcCompat="@drawable/retrato__1_" />
 
             <!--correo-->
             <com.google.android.material.textfield.TextInputLayout
@@ -42,11 +42,12 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtCorreoEt"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="60dp"
                     android:hint="@string/correo_electr_nico"
                     android:inputType="textEmailAddress"
-                    android:paddingHorizontal="8dp"
+                    android:paddingHorizontal="12dp"
                     android:paddingVertical="12dp"
+                    android:textSize="20sp"
                     android:textColor="@color/white"></com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -65,11 +66,12 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtPassEt"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="60dp"
                     android:hint="@string/contrase_a"
                     android:inputType="textPassword"
+                    android:textSize="20sp"
                     android:maxLength="20"
-                    android:paddingHorizontal="8dp"
+                    android:paddingHorizontal="12dp"
                     android:paddingVertical="12dp"
                     android:textColor="@color/white"></com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
@@ -88,12 +90,13 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtCPassEt"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="60dp"
                     android:hint="@string/confirmar_contrase_a"
                     android:inputType="textPassword"
                     android:maxLength="20"
-                    android:paddingHorizontal="8dp"
+                    android:paddingHorizontal="12dp"
                     android:paddingVertical="12dp"
+                    android:textSize="20sp"
                     android:textColor="@color/white"></com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
 
