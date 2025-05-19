@@ -60,8 +60,8 @@
         android:backgroundTint="@color/textFieldContent"
         android:onClick="eventoBoton"
         android:text="Vía Whatssap"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="471dp" />
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="473dp" />
 
     <Button
         android:id="@+id/btnFb"
@@ -70,8 +70,8 @@
         android:backgroundTint="@color/title"
         android:text="Vía Facebook"
         app:strokeColor="@color/A700"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="559dp" />
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="552dp" />
 
     <Button
         android:id="@+id/btnIg"
@@ -79,23 +79,23 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/title"
         android:text="Vía Instagram"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="642dp" />
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="645dp" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/llantinta_contact"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="183dp" />
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="190dp" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ig_icon"
-        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="628dp" />
 
     <ImageView
@@ -103,7 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/whats_icon"
-        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="455dp" />
 
     <ImageView
@@ -111,7 +111,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/face_icon"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="540dp" />
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="543dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
