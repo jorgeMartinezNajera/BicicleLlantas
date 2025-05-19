@@ -3,17 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bgScreen">
+    android:background="@color/_800">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="12dp"
-        app:cardCornerRadius="32dp"
+        app:cardCornerRadius="0dp"
         app:cardElevation="8dp"
         app:strokeColor="@color/black"
         app:strokeWidth="0.5dp"
-        android:backgroundTint="@color/bgContainer">
+        android:backgroundTint="@color/_800">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:textColorHint="@color/textFieldContent">
+                android:textColorHint="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtCorreoEt"
@@ -50,7 +50,7 @@
                     android:inputType="textEmailAddress"
                     android:paddingHorizontal="12dp"
                     android:paddingVertical="12dp"
-                    android:textColor="@color/textFieldContent"
+                    android:textColor="@color/white"
                     android:textSize="20sp"></com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -61,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:textColorHint="@color/textFieldContent"
+                android:textColorHint="@color/white"
                 app:counterEnabled="true"
                 app:counterMaxLength="20"
                 app:passwordToggleEnabled="true">
@@ -75,7 +75,7 @@
                     android:maxLength="20"
                     android:paddingHorizontal="12dp"
                     android:paddingVertical="12dp"
-                    android:textColor="@color/textFieldContent"
+                    android:textColor="@color/white"
                     android:textSize="20sp"></com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -88,8 +88,7 @@
                 android:layout_marginTop="8dp"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
-                android:text="Entrar"
-                app:backgroundTint="@color/bgButton">
+                android:text="Entrar">
 
             </com.google.android.material.button.MaterialButton>
 
@@ -100,9 +99,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
+                android:backgroundTint="@color/_600"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
-                app:backgroundTint="@color/bgButton"
                 android:text="Crear mi cuenta">
 
             </com.google.android.material.button.MaterialButton>
