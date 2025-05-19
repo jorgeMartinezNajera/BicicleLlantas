@@ -80,7 +80,7 @@
                         android:layout_height="160dp"
                         android:background="@color/white"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:onClick="clicBoton"
+                        android:onClick="onClick"
                         android:scaleType="fitXY"
                         android:src="@drawable/llanta1" />
 
@@ -101,12 +101,12 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/imageButton8"
+                        android:id="@+id/p2"
                         android:layout_width="160dp"
                         android:layout_height="160dp"
                         android:background="@color/white"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:onClick="clicBoton"
+                        android:onClick="onClick"
                         android:scaleType="fitXY"
                         android:src="@drawable/llanta2" />
 
@@ -136,12 +136,12 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/imageButton5"
+                        android:id="@+id/p3"
                         android:layout_width="160dp"
                         android:layout_height="160dp"
                         android:background="@color/white"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:onClick="clicBoton"
+                        android:onClick="onClick"
                         android:scaleType="fitXY"
                         android:src="@drawable/llanta3" />
 
@@ -162,12 +162,12 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/imageButton6"
+                        android:id="@+id/p4"
                         android:layout_width="160dp"
                         android:layout_height="160dp"
                         android:background="@color/white"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:onClick="clicBoton"
+                        android:onClick="onClick"
                         android:scaleType="fitXY"
                         android:src="@drawable/llanta4" />
 
@@ -198,12 +198,12 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/imageButton3"
+                        android:id="@+id/p5"
                         android:layout_width="160dp"
                         android:layout_height="160dp"
                         android:background="@color/white"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:onClick="clicBoton"
+                        android:onClick="onClick"
                         android:scaleType="fitXY"
                         android:src="@drawable/llanta5" />
 
@@ -224,12 +224,12 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/imageButton4"
+                        android:id="@+id/p6"
                         android:layout_width="160dp"
                         android:layout_height="160dp"
                         android:background="@color/white"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:onClick="clicBoton"
+                        android:onClick="onClick"
                         android:scaleType="fitXY"
                         android:src="@drawable/llanta6" />
 
@@ -258,12 +258,12 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/imageButton2"
+                        android:id="@+id/p7"
                         android:layout_width="160dp"
                         android:layout_height="160dp"
                         android:background="@color/white"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:onClick="clicBoton"
+                        android:onClick="onClick"
                         android:scaleType="fitXY"
                         android:src="@drawable/llanta7" />
 
@@ -284,12 +284,12 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/imageButton"
+                        android:id="@+id/p8"
                         android:layout_width="160dp"
                         android:layout_height="160dp"
                         android:background="@color/white"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:onClick="clicBoton"
+                        android:onClick="onClick"
                         android:scaleType="fitXY"
                         android:src="@drawable/llanta8" />
 
@@ -310,21 +310,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="25dp"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="160dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="15dp"
                     android:orientation="vertical">
+
                     <ImageButton
-                        android:id="@+id/imageButton12"
+                        android:id="@+id/p9"
                         android:layout_width="160dp"
                         android:layout_height="160dp"
                         android:background="@color/white"
                         android:contentDescription="@string/bottom_sheet_behavior"
-                        android:onClick="clicBoton"
+                        android:onClick="onClick"
                         android:scaleType="fitXY"
                         android:src="@drawable/llanta9" />
 
@@ -345,12 +346,12 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/imageButton13"
+                        android:id="@+id/p10"
                         android:layout_width="160dp"
                         android:layout_height="160dp"
                         android:background="@color/white"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:onClick="clicBoton"
+                        android:onClick="onClick"
                         android:scaleType="fitXY"
                         android:src="@drawable/llanta10" />
 

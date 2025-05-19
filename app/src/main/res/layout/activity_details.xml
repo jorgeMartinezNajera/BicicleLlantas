@@ -203,21 +203,21 @@
                 app:layout_constraintTop_toBottomOf="@id/material" />
 
             <TextView
-                android:id="@+id/contenidoTitle"
+                android:id="@+id/descripcionTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Contenido del empaque"
+                android:text="Descripción"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="18dp"
-                app:layout_constraintEnd_toStartOf="@id/contenido"
+                app:layout_constraintEnd_toStartOf="@id/descripcion"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/pesoTitle"
                 android:layout_marginStart="16dp"/>
 
             <TextView
-                android:id="@+id/contenido"
+                android:id="@+id/descripcion"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -225,7 +225,7 @@
                 android:textAlignment="textStart"
                 android:textSize="18dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/contenidoTitle"
+                app:layout_constraintStart_toEndOf="@id/descripcionTitle"
                 app:layout_constraintTop_toBottomOf="@id/peso" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
