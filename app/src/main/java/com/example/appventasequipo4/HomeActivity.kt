@@ -40,7 +40,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(view: View?) {
         if(view != null && view.id == R.id.btnContacto){
-            startActivity(Intent(this, ContactoActivity::class.java))
+            startActivity(Intent(this, PantallaRedesS::class.java))
         }
         if(view != null && view.id == R.id.imageButton9){
             startActivity(Intent(this, CartActivity::class.java))

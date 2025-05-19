@@ -13,7 +13,7 @@ class PantallaRedesS : AppCompatActivity() {
 
         val btnfb: Button = findViewById(R.id.btnFb)
         btnfb.setOnClickListener {
-            val url = "https://es-la.facebook.com/login/"
+            val url = "https://es-la.facebook.com/login/" //Ola
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }

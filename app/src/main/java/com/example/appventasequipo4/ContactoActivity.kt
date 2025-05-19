@@ -1,6 +1,7 @@
 package com.example.appventasequipo4
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -8,23 +9,25 @@ import android.widget.Button
 class ContactoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_contact)
-        //Botón Redes
-        val btn: Button = this.findViewById(R.id.btnRedes)
-        btn.setOnClickListener {
-            val intent = Intent(this, PantallaRedesS::class.java)
+        setContentView(R.layout.activity_pantalla_redes_s)
+
+        val btnfb: Button = findViewById(R.id.btnFb)
+        btnfb.setOnClickListener {
+            val url = "https://www.facebook.com/profile.php?id=61576074796450" //Ola
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }
-        //Botón Vendedores
-        val btn1: Button = this.findViewById(R.id.btnDirec)
-        btn1.setOnClickListener {
-            val intent1 = Intent(this, PantallaVendedor::class.java)
-            startActivity(intent1)
+        val btnig: Button = findViewById(R.id.btnIg)
+        btnig.setOnClickListener {
+            val url = "https://www.instagram.com/biciclellantas?igsh=YjR0OWd1eWI4YzE="
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+            startActivity(intent)
         }
-        //Botón Salida
-        val btn2: Button = this.findViewById(R.id.btnSalida)
-        btn2.setOnClickListener {
-            finishAffinity()
+        val btnwh: Button = findViewById(R.id.btnWha)
+        btnwh.setOnClickListener {
+            val url = "https://business.whatsapp.com/"
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+            startActivity(intent)
         }
     }
 }
