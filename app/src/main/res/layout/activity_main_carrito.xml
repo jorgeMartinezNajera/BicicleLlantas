@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/_700">
+    android:background="@color/bgScreen">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="10dp"
-                android:textColor="@color/white"
+                android:textColor="@color/title"
                 android:fontFamily="sans-serif-black"
                 android:text="MI CARRITO"
                 android:textAlignment="center"
@@ -60,7 +60,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Aeolus RSL TLR Road"
-                            android:textColor="@color/white"
+                            android:textColor="@color/text"
                             android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -89,7 +89,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Vallnord RSL XR TLR"
-                            android:textColor="@color/white"
+                            android:textColor="@color/text"
                             android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -128,7 +128,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Galbraith RSL SE TLR"
-                            android:textColor="@color/white"
+                            android:textColor="@color/text"
                             android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -157,7 +157,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Brevard RSL SE TLR"
-                            android:textColor="@color/white"
+                            android:textColor="@color/text"
                             android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -196,7 +196,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Montrose RSL XT TLR"
-                            android:textColor="@color/white"
+                            android:textColor="@color/text"
                             android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -224,7 +224,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Sainte-Anne RSL XR TLR"
-                            android:textColor="@color/white"
+                            android:textColor="@color/text"
                             android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -262,7 +262,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Betasso RSL GX TLR"
-                            android:textColor="@color/white"
+                            android:textColor="@color/text"
                             android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -290,7 +290,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Brevard RSL XT TLR"
-                            android:textColor="@color/white"
+                            android:textColor="@color/text"
                             android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -330,7 +330,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Brevard Pro XR TLR"
-                            android:textColor="@color/white"
+                            android:textColor="@color/text"
                             android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -359,7 +359,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Aeolus RSL TLR Road"
-                            android:textColor="@color/white"
+                            android:textColor="@color/text"
                             android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
@@ -373,7 +373,12 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="10dp"
                 android:text="COMPRAR"
-                android:textSize="25dp">
+                android:textSize="25dp"
+                android:backgroundTint="@color/bgButton"
+                android:layout_marginBottom="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                >
 
             </com.google.android.material.button.MaterialButton>
 

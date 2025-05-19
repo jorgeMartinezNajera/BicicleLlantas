@@ -18,4 +18,13 @@
     <color name="A400">#00E5FF</color>
     <color name="A700">#00B8D4</color>
     <color name = "colorNuevo">#245613</color>
+
+    <color name ="bgScreen">#F5F5F5</color>
+    <color name="bgContainer">#FFFFFF</color>
+    <color name ="title">#212121</color>
+    <color name="text">#212121</color>
+    <color name="bgButton">#2196F3</color>
+    <color name="txtBtn">#FAFAFA</color>
+    <color name="bgText">#FAFAFA</color>
+    <color name="textFieldContent">#212121</color>
 </resources>
