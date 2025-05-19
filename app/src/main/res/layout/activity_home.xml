@@ -25,7 +25,7 @@
             android:contentDescription="@string/appbar_scrolling_view_behavior"
             android:fadingEdge="none"
             android:scaleType="fitXY"
-            android:src="@drawable/carro" />
+            android:src="@drawable/carrito" />
 
         <Button
             android:id="@+id/btnContacto"
