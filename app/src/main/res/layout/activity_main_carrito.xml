@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/_700">
+    android:background="@color/bgScreen">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="10dp"
-                android:textColor="@color/white"
+                android:textColor="@color/title"
                 android:fontFamily="sans-serif-black"
                 android:text="MI CARRITO"
                 android:textAlignment="center"
@@ -44,27 +44,24 @@
 
                     <ImageView
                         android:id="@+id/opc1"
-                        android:layout_width="120dp"
-                        android:layout_height="128dp"
-                        android:src="@drawable/opc1"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/llanta1"
                         android:layout_gravity="center"/>
+
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="140dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rectangulo"/>
                         <CheckBox
                             android:id="@+id/seleccion1"
                             android:layout_marginLeft="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Kit 10 pinceles"
-                            android:textColor="@color/white"
-                            android:textSize="10sp"/>
+                            android:text="Aeolus RSL TLR Road"
+                            android:textColor="@color/text"
+                            android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
                 <!-- Cuadrado -->
@@ -76,27 +73,24 @@
 
                     <ImageView
                         android:id="@+id/opc2"
-                        android:layout_width="120dp"
-                        android:layout_height="128dp"
-                        android:src="@drawable/opc2"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/llanta2"
                         android:layout_gravity="center"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="140dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rectangulo"/>
+
                         <CheckBox
                             android:id="@+id/seleccion2"
                             android:layout_marginLeft="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="E. P. de cerda"
-                            android:textColor="@color/white"
-                            android:textSize="10sp"/>
+                            android:text="Vallnord RSL XR TLR"
+                            android:textColor="@color/text"
+                            android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -118,27 +112,24 @@
 
                     <ImageView
                         android:id="@+id/opc3"
-                        android:layout_width="120dp"
-                        android:layout_height="128dp"
-                        android:src="@drawable/opc3"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/llanta3"
                         android:layout_gravity="center"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="140dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rectangulo"/>
+
                         <CheckBox
                             android:id="@+id/seleccion3"
                             android:layout_marginLeft="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="E. Acuarela, oleo"
-                            android:textColor="@color/white"
-                            android:textSize="10sp"/>
+                            android:text="Galbraith RSL SE TLR"
+                            android:textColor="@color/text"
+                            android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -150,27 +141,24 @@
 
                     <ImageView
                         android:id="@+id/opc4"
-                        android:layout_width="120dp"
-                        android:layout_height="128dp"
-                        android:src="@drawable/opc4"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/llanta4"
                         android:layout_gravity="center"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="140dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rectangulo"/>
+
                         <CheckBox
                             android:id="@+id/seleccion4"
                             android:layout_marginLeft="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Kit P. de viaje"
-                            android:textColor="@color/white"
-                            android:textSize="10sp"/>
+                            android:text="Brevard RSL SE TLR"
+                            android:textColor="@color/text"
+                            android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -192,27 +180,24 @@
 
                     <ImageView
                         android:id="@+id/opc5"
-                        android:layout_width="120dp"
-                        android:layout_height="128dp"
-                        android:src="@drawable/opc5"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/llanta5"
                         android:layout_gravity="center"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="140dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rectangulo"/>
+
                         <CheckBox
                             android:id="@+id/seleccion5"
                             android:layout_marginLeft="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Estuche de cuero"
-                            android:textColor="@color/white"
-                            android:textSize="10sp"/>
+                            android:text="Montrose RSL XT TLR"
+                            android:textColor="@color/text"
+                            android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
                 <!-- Cuadrado -->
@@ -223,27 +208,24 @@
 
                     <ImageView
                         android:id="@+id/opc6"
-                        android:layout_width="120dp"
-                        android:layout_height="128dp"
-                        android:src="@drawable/pincel4"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/llanta6"
                         android:layout_gravity="center"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="140dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rectangulo"/>
+
                         <CheckBox
                             android:id="@+id/seleccion6"
                             android:layout_marginLeft="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Estuche recargable"
-                            android:textColor="@color/white"
-                            android:textSize="10sp"/>
+                            android:text="Sainte-Anne RSL XR TLR"
+                            android:textColor="@color/text"
+                            android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -265,27 +247,23 @@
 
                     <ImageView
                         android:id="@+id/opc7"
-                        android:layout_width="120dp"
-                        android:layout_height="128dp"
-                        android:src="@drawable/opc7"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/llanta8"
                         android:layout_gravity="center"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="140dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rectangulo"/>
                         <CheckBox
                             android:id="@+id/seleccion7"
                             android:layout_marginLeft="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Estuche azul"
-                            android:textColor="@color/white"
-                            android:textSize="10sp"/>
+                            android:text="Betasso RSL GX TLR"
+                            android:textColor="@color/text"
+                            android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
                 <!-- Cuadrado -->
@@ -296,27 +274,24 @@
 
                     <ImageView
                         android:id="@+id/opc8"
-                        android:layout_width="120dp"
-                        android:layout_height="128dp"
-                        android:src="@drawable/opc8"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/llanta9"
                         android:layout_gravity="center"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="140dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rectangulo"/>
+
                         <CheckBox
                             android:id="@+id/seleccion8"
                             android:layout_marginLeft="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Estuche Artecho"
-                            android:textColor="@color/white"
-                            android:textSize="10sp"/>
+                            android:text="Brevard RSL XT TLR"
+                            android:textColor="@color/text"
+                            android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -339,27 +314,24 @@
 
                     <ImageView
                         android:id="@+id/opc9"
-                        android:layout_width="120dp"
-                        android:layout_height="128dp"
-                        android:src="@drawable/opc9"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/llanta10"
                         android:layout_gravity="center"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="140dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rectangulo"/>
+
                         <CheckBox
                             android:id="@+id/seleccion9"
                             android:layout_marginLeft="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Estuche GOTIDEAL"
-                            android:textColor="@color/white"
-                            android:textSize="10sp"/>
+                            android:text="Brevard Pro XR TLR"
+                            android:textColor="@color/text"
+                            android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -371,27 +343,24 @@
 
                     <ImageView
                         android:id="@+id/opc10"
-                        android:layout_width="120dp"
-                        android:layout_height="128dp"
-                        android:src="@drawable/opc10"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/llanta1"
                         android:layout_gravity="center"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="140dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rectangulo"/>
+
                         <CheckBox
                             android:id="@+id/seleccion10"
                             android:layout_marginLeft="15dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Caja de madera"
-                            android:textColor="@color/white"
-                            android:textSize="10sp"/>
+                            android:text="Aeolus RSL TLR Road"
+                            android:textColor="@color/text"
+                            android:textSize="16sp"/>
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -404,7 +373,12 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="10dp"
                 android:text="COMPRAR"
-                android:textSize="25dp">
+                android:textSize="25dp"
+                android:backgroundTint="@color/bgButton"
+                android:layout_marginBottom="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                >
 
             </com.google.android.material.button.MaterialButton>
 
