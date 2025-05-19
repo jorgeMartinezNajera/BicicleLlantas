@@ -27,12 +27,12 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    elementosseleccionados.add("Set 10 pinceles");
-                    preciosseleccionados.add("$1450.0");
+                    elementosseleccionados.add("Aeolus RSL TLR Road");
+                    preciosseleccionados.add("$1999.0");
                     total+=1450.0;
                 } else {
-                    elementosseleccionados.remove("Set 10 pinceles");
-                    preciosseleccionados.remove("$1450.0");
+                    elementosseleccionados.remove("Aeolus RSL TLR Road");
+                    preciosseleccionados.remove("$1999.0");
                     total+=0.0;
                 }
             }
@@ -43,12 +43,12 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    elementosseleccionados.add("Estuche de pinceles de cerda");
-                    preciosseleccionados.add("$999.00");
+                    elementosseleccionados.add("Vallnord RSL XR TLR");
+                    preciosseleccionados.add("$1499.00");
                     total+=999.0;
                 } else {
-                    elementosseleccionados.remove("Estuche de pinceles de cerda");
-                    preciosseleccionados.remove("$999.00");
+                    elementosseleccionados.remove("Vallnord RSL XR TLR");
+                    preciosseleccionados.remove("$1499.00");
                     total+=0.0;
 
                 }
@@ -60,13 +60,13 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    elementosseleccionados.add("Estuche para pinceles Acuarela, oleo");
-                    preciosseleccionados.add("$1678.00");
+                    elementosseleccionados.add("Galbraith RSL SE TLR");
+                    preciosseleccionados.add("$1499.00");
                     total+=1678.0;
 
                 } else {
-                    elementosseleccionados.remove("Estuche para pinceles Acuarela, oleo");
-                    preciosseleccionados.remove("$1678.00");
+                    elementosseleccionados.remove("Galbraith RSL SE TLR");
+                    preciosseleccionados.remove("$1499.00");
                     total+=0.0;
 
                 }
@@ -78,12 +78,12 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    elementosseleccionados.add("Set estuche y pinceles de viaje");
-                    preciosseleccionados.add("$1265.00");
+                    elementosseleccionados.add("Brevard RSL SE TLR");
+                    preciosseleccionados.add("$1499.00");
                     total+=1265.0;
                 } else {
-                    elementosseleccionados.remove("Set estuche y pinceles de viaje");
-                    preciosseleccionados.remove("$1265.00");
+                    elementosseleccionados.remove("Brevard RSL SE TLR");
+                    preciosseleccionados.remove("$1499.00");
                     total+=0.0;
                 }
             }
@@ -94,12 +94,12 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    elementosseleccionados.add("Estuche de cuero");
-                    preciosseleccionados.add("$2000.00");
+                    elementosseleccionados.add("Montrose RSL XT TLR");
+                    preciosseleccionados.add("$1499.00");
                     total+=2000.0;
                 } else {
-                    elementosseleccionados.remove("Estuche de cuero");
-                    preciosseleccionados.remove("$2000.00");
+                    elementosseleccionados.remove("Montrose RSL XT TLR");
+                    preciosseleccionados.remove("$1499.00");
                     total+=0.0;
                 }
             }
@@ -110,13 +110,13 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    elementosseleccionados.add("Estuche recargable");
-                    preciosseleccionados.add("$983.00");
+                    elementosseleccionados.add("Sainte-Anne RSL XR TLR");
+                    preciosseleccionados.add("$1499.00");
                     total+=983.0;
 
                 } else {
-                    elementosseleccionados.remove("Estuche recargable");
-                    preciosseleccionados.remove("$983.00");
+                    elementosseleccionados.remove("Sainte-Anne RSL XR TLR");
+                    preciosseleccionados.remove("$1499.00");
                     total+=0.0;
                 }
             }
@@ -127,12 +127,12 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    elementosseleccionados.add("Estuche azul");
-                    preciosseleccionados.add("$1455.00");
+                    elementosseleccionados.add("Gunnison RSL XT TLR");
+                    preciosseleccionados.add("$1499.00");
                     total+=1455.0;
                 } else {
-                    elementosseleccionados.remove("Estuche azul");
-                    preciosseleccionados.remove("$1455.00");
+                    elementosseleccionados.remove("Gunnison RSL XT TLR");
+                    preciosseleccionados.remove("$1499.00");
                     total+=0.0;
                 }
             }
@@ -143,12 +143,12 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    elementosseleccionados.add("Estuche Artecho");
-                    preciosseleccionados.add("$1234.00");
+                    elementosseleccionados.add("Betasso RSL GX TLR");
+                    preciosseleccionados.add("$1299.00");
                     total+=1234.0;
                 } else {
-                    elementosseleccionados.remove("Estuche Artecho");
-                    preciosseleccionados.remove("$1234.00");
+                    elementosseleccionados.remove("Betasso RSL GX TLR");
+                    preciosseleccionados.remove("$1299.00");
                     total+=0.0;
                 }
             }
@@ -175,12 +175,12 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    elementosseleccionados.add("Caja de madera");
-                    preciosseleccionados.add("$2500.00");
+                    elementosseleccionados.add("Brevard Pro XR TLR");
+                    preciosseleccionados.add("$1199.00");
                     total+=2500.0;
                 } else {
-                    elementosseleccionados.remove("Caja de madera");
-                    preciosseleccionados.remove("$2500.00");
+                    elementosseleccionados.remove("Brevard Pro XR TLR");
+                    preciosseleccionados.remove("$1199.00");
                     total+=0.0;
                 }
             }
