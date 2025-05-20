@@ -2,8 +2,9 @@ package com.example.appventasequipo4;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
+import android.widget.ImageButton;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -48,7 +49,19 @@ TextView resultado, resultado2,resultado3;
         Double tot = extras.getDouble("total");
         resultado3.setText("$"+tot.toString());
 
+        // Botón de retroceso
+        ImageButton btnBack = findViewById(R.id.btnBack);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(finalCompra.this, HomeActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); 
+                startActivity(intent);
+                finish();
+            }
+        });
 
-   }
+
+    }
 }
 
