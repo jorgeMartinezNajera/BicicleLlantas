@@ -1,6 +1,7 @@
 package com.example.appventasequipo4
 
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -19,7 +20,7 @@ class activity_details : AppCompatActivity() {
             insets
         }
 
-        val productName = findViewById<TextView>(R.id.tipo)
+        val productName = findViewById<TextView>(R.id.articleName)
         val productPrice = findViewById<TextView>(R.id.price)
         val productDescription = findViewById<TextView>(R.id.descripcion)
         val productImage = findViewById<ImageView>(R.id.imgContainer)
@@ -47,7 +48,11 @@ class activity_details : AppCompatActivity() {
         productDiameter.text = diameter
         productWidth.text = width
         productMaterial.text = material
-        productWeight.text = weight
+        productWeight.text = "$weight gramos"
+
+        findViewById<ImageButton>(R.id.btnBack).setOnClickListener {
+            finish()
+        }
     }
 
 
