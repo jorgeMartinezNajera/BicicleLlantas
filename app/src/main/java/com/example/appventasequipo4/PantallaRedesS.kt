@@ -13,19 +13,19 @@ class PantallaRedesS : AppCompatActivity() {
 
         val btnfb: Button = findViewById(R.id.btnFb)
         btnfb.setOnClickListener {
-            val url = "https://es-la.facebook.com/login/" //Ola
+            val url = "https://www.facebook.com/profile.php?id=61576074796450"
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }
         val btnig: Button = findViewById(R.id.btnIg)
         btnig.setOnClickListener {
-            val url = "https://www.instagram.com/"
+            val url = "https://www.instagram.com/biciclellantas?igsh=YjR0OWd1eWI4YzE="
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }
         val btnwh: Button = findViewById(R.id.btnWha)
         btnwh.setOnClickListener {
-            val url = "https://www.whatsapp.com/"
+            val url = "https://business.whatsapp.com/"
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }
