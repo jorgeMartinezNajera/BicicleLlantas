@@ -54,37 +54,31 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
      * @param productDescription La descripción corta o detalle del producto.
      * Puedes añadir más parámetros según necesites (precio, etc.)
      */
-    private fun openDetailsActivity(productImageResId: Int,
-                                    productName: String,
-                                    productPrice: Int,
-                                    productType: String,
-                                    productDiameter: String,
-                                    productWidth: String,
-                                    productMaterial: String,
-                                    productWeight: String,
-                                    productDescription: String) {
+    private fun openDetailsActivity(
+        productImageResId: Int,
+        productName: String,
+        productPrice: Int,
+        productType: String,
+        productDiameter: String,
+        productWidth: String,
+        productMaterial: String,
+        productWeight: String,
+        productDescription: String
+    ) {
         val intent = Intent(this, activity_details::class.java).apply {
-            //Imagen
-            putExtra("PRODUCT_IMAGE", productImageResId)
-            //Nombre
-            putExtra("PRODUCT_NAME", productName)
-            //Precio
-            putExtra("PRODUCT_PRICE",productPrice)
-            //Tipo de bicicleta
-            putExtra("PRODUCT_TYPE",productType)
-            //Diametro
-            putExtra("PRODUCT_DIAMETER", productDiameter)
-            //Ancho
-            putExtra("PRODUCT_WIDTH",productWidth)
-            //Material
-            putExtra("PRODUCT_MATERIAL",productMaterial)
-            //Peso
-            putExtra("PRODUCT_WEIGHT", productWeight)
-            //Descripcion
-            putExtra("PRODUCT_DESCRIPTION",productDescription)
+            putExtra("EXTRA_IMAGE", productImageResId)
+            putExtra("EXTRA_NAME", productName)
+            putExtra("EXTRA_PRICE", "$productPrice") // Se espera un String en Details
+            putExtra("EXTRA_TYPE", productType)
+            putExtra("EXTRA_DIAMETER", productDiameter)
+            putExtra("EXTRA_WIDTH", productWidth)
+            putExtra("EXTRA_MATERIAL", productMaterial)
+            putExtra("EXTRA_WEIGHT", productWeight)
+            putExtra("EXTRA_DESCRIPTION", productDescription)
         }
         startActivity(intent)
     }
+
 
     // Tu función clicBoton actual muestra Toasts.
     // Si la idea es reemplazar los Toasts con la navegación a DetailsActivity,
