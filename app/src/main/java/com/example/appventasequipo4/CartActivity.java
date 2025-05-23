@@ -29,7 +29,7 @@ public class CartActivity extends AppCompatActivity {
                 if (isChecked) {
                     elementosseleccionados.add("Aeolus RSL TLR Road");
                     preciosseleccionados.add("$1999.0");
-                    total+=1450.0;
+                    total+=1999.0;
                 } else {
                     elementosseleccionados.remove("Aeolus RSL TLR Road");
                     preciosseleccionados.remove("$1999.0");
@@ -45,7 +45,7 @@ public class CartActivity extends AppCompatActivity {
                 if (isChecked) {
                     elementosseleccionados.add("Vallnord RSL XR TLR");
                     preciosseleccionados.add("$1499.00");
-                    total+=999.0;
+                    total+=1499.0;
                 } else {
                     elementosseleccionados.remove("Vallnord RSL XR TLR");
                     preciosseleccionados.remove("$1499.00");
@@ -62,7 +62,7 @@ public class CartActivity extends AppCompatActivity {
                 if (isChecked) {
                     elementosseleccionados.add("Galbraith RSL SE TLR");
                     preciosseleccionados.add("$1499.00");
-                    total+=1678.0;
+                    total+=1499.0;
 
                 } else {
                     elementosseleccionados.remove("Galbraith RSL SE TLR");
@@ -80,7 +80,7 @@ public class CartActivity extends AppCompatActivity {
                 if (isChecked) {
                     elementosseleccionados.add("Brevard RSL SE TLR");
                     preciosseleccionados.add("$1499.00");
-                    total+=1265.0;
+                    total+=1499.0;
                 } else {
                     elementosseleccionados.remove("Brevard RSL SE TLR");
                     preciosseleccionados.remove("$1499.00");
@@ -96,7 +96,7 @@ public class CartActivity extends AppCompatActivity {
                 if (isChecked) {
                     elementosseleccionados.add("Montrose RSL XT TLR");
                     preciosseleccionados.add("$1499.00");
-                    total+=2000.0;
+                    total+=1499.0;
                 } else {
                     elementosseleccionados.remove("Montrose RSL XT TLR");
                     preciosseleccionados.remove("$1499.00");
@@ -112,7 +112,7 @@ public class CartActivity extends AppCompatActivity {
                 if (isChecked) {
                     elementosseleccionados.add("Sainte-Anne RSL XR TLR");
                     preciosseleccionados.add("$1499.00");
-                    total+=983.0;
+                    total+=1499.0;
 
                 } else {
                     elementosseleccionados.remove("Sainte-Anne RSL XR TLR");
@@ -129,7 +129,7 @@ public class CartActivity extends AppCompatActivity {
                 if (isChecked) {
                     elementosseleccionados.add("Gunnison RSL XT TLR");
                     preciosseleccionados.add("$1499.00");
-                    total+=1455.0;
+                    total+=1499.0;
                 } else {
                     elementosseleccionados.remove("Gunnison RSL XT TLR");
                     preciosseleccionados.remove("$1499.00");
@@ -145,7 +145,7 @@ public class CartActivity extends AppCompatActivity {
                 if (isChecked) {
                     elementosseleccionados.add("Betasso RSL GX TLR");
                     preciosseleccionados.add("$1299.00");
-                    total+=1234.0;
+                    total+=1299.0;
                 } else {
                     elementosseleccionados.remove("Betasso RSL GX TLR");
                     preciosseleccionados.remove("$1299.00");
@@ -177,7 +177,7 @@ public class CartActivity extends AppCompatActivity {
                 if (isChecked) {
                     elementosseleccionados.add("Brevard Pro XR TLR");
                     preciosseleccionados.add("$1199.00");
-                    total+=2500.0;
+                    total+=1199.0;
                 } else {
                     elementosseleccionados.remove("Brevard Pro XR TLR");
                     preciosseleccionados.remove("$1199.00");
