@@ -4,29 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:gravity="center"
-    android:orientation="vertical"
-    tools:context=".activity_details">
+    android:orientation="vertical">
 
     <ImageButton
         android:id="@+id/btnBack"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="30dp"
         android:backgroundTint="@android:color/transparent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_back"
         android:scaleType="fitCenter"
-        app:tint="@color/bgButton"
-        />
+        app:layout_constraintTop_toBottomOf="@id/sv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back"
+        app:tint="@color/bgButton" />
 
     <ScrollView
+        android:id="@+id/sv"
+        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/btnBack"
+        android:layout_marginBottom="75dp"
+        android:fillViewport="true"
+        android:paddingTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnBack"
+
         >
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -76,18 +83,19 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                tools:text="$1549 MXN"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="24dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/articleName" />
+                app:layout_constraintTop_toBottomOf="@id/articleName"
+                tools:text="$1549 MXN" />
 
             <TextView
                 android:id="@+id/tipoTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="32dp"
                 android:text="@string/cicleType"
                 android:textAlignment="textStart"
@@ -95,14 +103,14 @@
                 android:textSize="18dp"
                 app:layout_constraintEnd_toStartOf="@id/tipo"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/price"
-                android:layout_marginStart="16dp"/>
+                app:layout_constraintTop_toBottomOf="@id/price" />
 
             <TextView
                 android:id="@+id/tipo"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
                 android:text="Montaña (MTB)"
                 android:textAlignment="textStart"
                 android:textSize="18dp"
@@ -114,6 +122,7 @@
                 android:id="@+id/diametroTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:text="Diametro"
                 android:textAlignment="textStart"
@@ -121,14 +130,14 @@
                 android:textSize="18dp"
                 app:layout_constraintEnd_toStartOf="@id/tipo"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tipoTitle"
-                android:layout_marginStart="16dp"/>
+                app:layout_constraintTop_toBottomOf="@id/tipoTitle" />
 
             <TextView
                 android:id="@+id/diametro"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
                 android:text="27.5''"
                 android:textAlignment="textStart"
                 android:textSize="18dp"
@@ -140,6 +149,7 @@
                 android:id="@+id/anchoTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:text="@string/width"
                 android:textAlignment="textStart"
@@ -147,14 +157,14 @@
                 android:textSize="18dp"
                 app:layout_constraintEnd_toStartOf="@id/tipo"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/diametroTitle"
-                android:layout_marginStart="16dp"/>
+                app:layout_constraintTop_toBottomOf="@id/diametroTitle" />
 
             <TextView
                 android:id="@+id/ancho"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
                 android:text="1.95''"
                 android:textAlignment="textStart"
                 android:textSize="18dp"
@@ -166,6 +176,7 @@
                 android:id="@+id/materialTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:text="@string/material"
                 android:textAlignment="textStart"
@@ -173,14 +184,14 @@
                 android:textSize="18dp"
                 app:layout_constraintEnd_toStartOf="@id/material"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/anchoTitle"
-                android:layout_marginStart="16dp"/>
+                app:layout_constraintTop_toBottomOf="@id/anchoTitle" />
 
             <TextView
                 android:id="@+id/material"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
                 android:text="Caucho"
                 android:textAlignment="textStart"
                 android:textSize="18dp"
@@ -192,6 +203,7 @@
                 android:id="@+id/pesoTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:text="@string/weight"
                 android:textAlignment="textStart"
@@ -199,14 +211,14 @@
                 android:textSize="18dp"
                 app:layout_constraintEnd_toStartOf="@id/peso"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/materialTitle"
-                android:layout_marginStart="16dp"/>
+                app:layout_constraintTop_toBottomOf="@id/materialTitle" />
 
             <TextView
                 android:id="@+id/peso"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
                 android:text="356 g"
                 android:textAlignment="textStart"
                 android:textSize="18dp"
@@ -218,6 +230,7 @@
                 android:id="@+id/descripcionTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:text="@string/description"
                 android:textAlignment="textStart"
@@ -225,15 +238,16 @@
                 android:textSize="18dp"
                 app:layout_constraintEnd_toStartOf="@id/descripcion"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/pesoTitle"
-                android:layout_marginStart="16dp"/>
+                app:layout_constraintTop_toBottomOf="@id/pesoTitle" />
 
             <TextView
                 android:id="@+id/descripcion"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 android:text="1 llanta"
                 android:textAlignment="textStart"
                 android:textSize="18dp"

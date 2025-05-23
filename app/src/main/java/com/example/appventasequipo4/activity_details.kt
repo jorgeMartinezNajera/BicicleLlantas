@@ -49,7 +49,7 @@ class activity_details : AppCompatActivity() {
         productDiameter.text = diameter
         productWidth.text = width
         productMaterial.text = material
-        productWeight.text = "$weight gramos"
+        productWeight.text = weight
 
         findViewById<ImageButton>(R.id.btnBack).setOnClickListener {
             finish()
